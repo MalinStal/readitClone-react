@@ -1,0 +1,106 @@
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%;
+  height: 100vh;
+  border-right: 1px solid black;
+
+  background-color: #ffffff;
+  top: 63px;
+  left: 0;
+  overflow: scroll;
+}
+
+.sidebar-left-ul {
+  list-style-type: none;
+}
+.sidebar-left h5 {
+  margin-left: 20px;
+}
+
+.sidebar-left > section {
+  margin-left: 2rem;
+}
+
+.sidebar-ul-toggle {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 10%;
+}
+
+.sidebar-left-button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-hover:hover {
+  background-color: lightslategray;
+  border-radius: 20px;
+  color: green;
+}
+
+.font {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar-left-p {
+  font-size: 11px;
+  margin-left: 80px;
+}
+
+.sidebar-ul-toggle {
+  display: none;
+}
+
+.ul-in-ul {
+  border: none;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/*Högra sidebaren */
+/*Högra sidebaren */
+/*Högra sidebaren */
+
+.sidebar-right {
+  right: 0px;
+  top: 100px;
+  width: 60%;
+  height: 50vh;
+  border-left: 1px solid black;
+  background-color: #ffffff;
+}
+
+.sidebar-right-h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+.container-appjs {
+  display: flex;
+}

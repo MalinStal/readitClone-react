@@ -1,0 +1,44 @@
+body {
+  background-color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #dae0e6;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: #0079d3;
+  color: #ffff;
+  border-radius: 10px, 10px, 10px;
+  border: none;
+  cursor: pointer;
+  padding: 15px, 30px;
+  font-size: 18px;
+}
+
+.scroll-btn:hoover {
+  background-color: #282c34;
+}

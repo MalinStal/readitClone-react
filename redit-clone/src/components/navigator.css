@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigator {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.536);
+  margin: 0 1.4rem 0 1.4rem;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+
+  z-index: 1;
+}
+
+.logo {
+  margin-right: 10%;
+  width: 110px;
+  height: 40px;
+}
+
+.input {
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  padding-left: 30px;
+  background-color: rgba(234, 232, 232, 0.895);
+  border: none;
+  margin-right: 12%;
+}
+
+.sign-up-btn {
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  margin-left: 1%;
+
+  background-color: #d93a00;
+  color: white;
+}
+
+.input:hover,
+.sign-up-btn:hover {
+  background-color: rgba(192, 191, 191, 0.777);
+}
+
+/* modal */
+.MagnifyingGlass {
+  margin-top: 12px;
+  margin-right: -25px;
+  z-index: 20;
+  position: relative;
+}
+
+.modal-logo {
+  display: flex;
+  text-align: start;
+  position: absolute;
+}
